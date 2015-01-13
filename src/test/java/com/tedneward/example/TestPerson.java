@@ -1,9 +1,14 @@
-package com.tedneward.example;
+package test.java.com.tedneward.example;
 
 import java.beans.*;
 import java.util.*;
+
+import main.java.com.tedneward.example.Person;
+
 import org.junit.Test;
+
 import static org.junit.Assert.*;
+
 
 public class TestPerson {
   @Test
@@ -94,12 +99,16 @@ public class TestPerson {
     // ============ YOUR CHANGES BEGIN HERE
     // Call addPropertyChangeListener with a PropertyChangedListener
     // that has the following code in it:
-    /*
-    assertEquals("ssn", pce.getPropertyName());
-    assertEquals("", pce.getOldValue());
-    assertEquals("012-34-5678", pce.getNewValue());
-    */
-
+    ted.addPropertyChangeListener(new PropertyChangeListener() {
+    	@Override public void propertyChange( final PropertyChangeEvent pce){
+    		
+    		assertEquals("ssn", pce.getPropertyName());
+            assertEquals("", pce.getOldValue());
+            assertEquals("012-34-5678", pce.getNewValue());
+           // firePropertyChange("ssn", assertEquals("", pce.getOldValue()), pce.getNewValue());
+    		}
+    });
+    
     // ============ YOUR CHANGES END HERE
     
     assertEquals(false, ted.getPropertyChangeFired());

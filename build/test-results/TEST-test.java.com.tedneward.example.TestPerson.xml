@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.java.com.tedneward.example.TestPerson" tests="8" skipped="0" failures="0" errors="0" timestamp="2015-01-13T06:40:02" hostname="gabis-pc" time="0.032">
+  <properties/>
+  <testcase name="exercisePesonEquals" classname="test.java.com.tedneward.example.TestPerson" time="0.016"/>
+  <testcase name="catchPropertyChange" classname="test.java.com.tedneward.example.TestPerson" time="0.0"/>
+  <testcase name="useNaturalComparison" classname="test.java.com.tedneward.example.TestPerson" time="0.0"/>
+  <testcase name="exerciseTheBasics" classname="test.java.com.tedneward.example.TestPerson" time="0.0"/>
+  <testcase name="useAgeComparator" classname="test.java.com.tedneward.example.TestPerson" time="0.0"/>
+  <testcase name="setAgeToBeNegative" classname="test.java.com.tedneward.example.TestPerson" time="0.0"/>
+  <testcase name="viewReadabletoString" classname="test.java.com.tedneward.example.TestPerson" time="0.016"/>
+  <testcase name="setNameToNull" classname="test.java.com.tedneward.example.TestPerson" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
